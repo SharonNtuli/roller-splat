@@ -9016,7 +9016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0886ce288041ddc4fab6254084feacaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelComplteP: {fileID: 579426820}
   LevelCompleteSoundEffect: {fileID: 1877971722}
 --- !u!4 &1877971721
 Transform:
@@ -9814,6 +9813,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5104479348703225107, guid: 42d23972f6f0ba4409e4b85160b153b7, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7320845241670155287, guid: 42d23972f6f0ba4409e4b85160b153b7, type: 3}
       propertyPath: m_RootOrder
       value: 3
